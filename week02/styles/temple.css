@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+header { 
+    background-color: #6f6f6f;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    font-size: 2rem;
+}
+
+main {
+    padding: 20px;
+    margin: 10px;
+    font-size: 1.2rem;
+    width: 1000px;
+}
+
+section {
+    width: 1000px;
+    padding: 30px;
+    margin: 40px;
+    background-color: rgb(197, 197, 197);
+    border: 1px solid #6f6f6f;
+    align-content: center;
+}
+
+img {
+    width: 1000px;
+    align-content: center;
+    margin: 30px;
+}
+footer {
+    background-color: #6f6f6f;
+    padding: 20px;
+    margin: 10px;
+    font-size: 2rem;
+}
