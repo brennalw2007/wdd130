@@ -4,17 +4,49 @@ body {
     align-self: center;
     align-content: center;
     align-items: center;
+    text-align: center;
+}
+
+main{
+    max-width: 50%;
 }
 
 title {
     font-size: 3em;
 }
 
+p {
+    padding: 0;
+}
+
+
+nav {
+    background-color: darkblue;
+    padding: 10px;}
+nav a {
+    color: white;
+    padding: 10 px;
+    display: block;
+    }
+
+
 h1 {
     background-color: rgb(83, 121, 121);
     padding: 30px
 }
 
-img {
-    max-width: 400px;
+main img {
+    width: 200px;
+    height: auto;
+    box-shadow: -16px 14px 13px -5px rgba(4, 4, 4, 0.492);
+}
+aside img{
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 10px solid darkblue;
+    text-align: center;
 }
