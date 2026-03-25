@@ -2,6 +2,7 @@
     padding: 20px;
     margin: 10px;
     align-content: center;
+    box-sizing: border-box;
 }
 
 body {
@@ -12,6 +13,9 @@ body {
     text-align: center;
 }
 
+li {
+    margin: 5em;
+}
 main{
     max-width: 90%;
 }
@@ -20,12 +24,13 @@ title {
     font-size: 3em;
     width: 100%;
     padding: 5px;
-    margin: 0px
+    margin: 0px;
 }
 
 p {
-    padding: 10rem;
+    padding: 2em;
     width: 90%;
+    position: relative;
 }
 
 .bio {
@@ -34,7 +39,8 @@ p {
 
 nav {
     background-color: rgb(2, 43, 78);
-    padding: 10px;}
+    padding: 10px;
+}
 
 
 nav a {
@@ -45,29 +51,28 @@ nav a {
 
 
 h1 {
-    background-color: rgb(27, 85, 85);
-    padding: 30px
+    padding: 10px;
 }
 
 main img {
+    position: absolute;
     width: 200px;
     float: right;
     height: auto;
     border: 5px solid rgb(6, 66, 66);
-    margin: 10px;
+    margin: 5rem;
+    padding: 0px;
     box-shadow: -16px 14px 13px -5px rgba(4, 4, 4, 0.492);
 }
 
 aside {
-    width: 50%;
     padding: 10px;
-    border: 5px solid rgb(96, 109, 119);
-    background-color: rgb(55, 72, 84);
+    border: 5px solid rgb(41, 78, 107);
+    background-color: rgb(22, 60, 86);
     color: white;
-
 }
 aside img{
-    width: 200px;
+    width: 50%;
     height: auto;
 }
 
@@ -79,5 +84,6 @@ footer {
 .box {
     margin: 1em;
     padding: 1em;
-    border: 1px solid rgb(50, 73, 99);
+    background-color: rgb(109, 156, 209);
+    border: 1px solid rgb(59, 89, 123);
 }
