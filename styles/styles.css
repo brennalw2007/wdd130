@@ -1,14 +1,20 @@
+* {
+    padding: 20px;
+    margin: 10px;
+    max-width: 50%;
+    align-content: center;
+}
+
 body {
     background-color: azure;
     color: rgb(5, 51, 51);
     align-self: center;
-    align-content: center;
     align-items: center;
     text-align: center;
 }
 
 main{
-    max-width: 50%;
+    max-width: 90%;
 }
 
 title {
@@ -16,12 +22,15 @@ title {
 }
 
 p {
-    padding: 0;
+    padding: 10rem;
 }
 
+.bio {
+    margin: 20px;
+}
 
 nav {
-    background-color: darkblue;
+    background-color: rgb(2, 43, 78);
     padding: 10px;}
 nav a {
     color: white;
@@ -31,14 +40,15 @@ nav a {
 
 
 h1 {
-    background-color: rgb(83, 121, 121);
+    background-color: rgb(27, 85, 85);
     padding: 30px
 }
 
 main img {
     width: 200px;
+    float: right;
     height: auto;
-    border: 5px solid rgb(5, 51, 51);
+    border: 5px solid rgb(6, 66, 66);
     padding: 30px;
     box-shadow: -16px 14px 13px -5px rgba(4, 4, 4, 0.492);
 }
@@ -46,9 +56,8 @@ main img {
 aside {
     width: 40%;
     padding: 10px;
-    margin: 20px;
-    border: 5px solid darkblue;
-    background-color: dimgray;
+    border: 5px solid rgb(96, 109, 119);
+    background-color: rgb(55, 72, 84);
     color: white;
 
 }
@@ -59,6 +68,11 @@ aside img{
 
 footer {
     margin-top: 20px;
-    border-top: 10px solid darkblue;
+    border-top: 10px solid rgb(2, 43, 78);
     text-align: center;
+}
+.box {
+    margin: 10rem;
+    padding: 10rem;
+    border: 1px solid rgb(50, 73, 99);
 }
