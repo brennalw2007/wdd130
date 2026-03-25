@@ -19,10 +19,14 @@ main{
 
 title {
     font-size: 3em;
+    width: 100%;
+    padding: 20px;
+    margin: 0px
 }
 
 p {
     padding: 10rem;
+    width: 90%;
 }
 
 .bio {
@@ -49,12 +53,12 @@ main img {
     float: right;
     height: auto;
     border: 5px solid rgb(6, 66, 66);
-    padding: 30px;
+    margin: 10px;
     box-shadow: -16px 14px 13px -5px rgba(4, 4, 4, 0.492);
 }
 
 aside {
-    width: 40%;
+    width: 50%;
     padding: 10px;
     border: 5px solid rgb(96, 109, 119);
     background-color: rgb(55, 72, 84);
@@ -72,7 +76,7 @@ footer {
     text-align: center;
 }
 .box {
-    margin: 10rem;
-    padding: 10rem;
+    margin: 1rem;
+    padding: 1rem;
     border: 1px solid rgb(50, 73, 99);
 }
