@@ -1,3 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: rgb(177, 196, 255);
+    --text-color: rgb(34, 21, 91);
+    --accent-color: rgb(255, 225, 0);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero article{
+    position: absolute;
+
+}
+
+.hero h1{
+    position: absolute
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -20,18 +45,18 @@ h1, h2 {
     padding: 1rem;
     margin: 5px;
     text-align: center;
-    background-color: rgb(124, 95, 255);
-    color: rgb(200, 204, 255);
+    background-color: white;
+    color: var(--text-color);
     font-family: 'Courier New', Courier, monospace;
 }
 
-.hero article image {
+.hero article img {
     float: right;
-    width: 125;
+    width: 125px;
     margin-left: 20px;
     margin-right: 10px;
 }
 
-.socialmedia a{
+.socialmedia a { 
     text-decoration: none;
 }
