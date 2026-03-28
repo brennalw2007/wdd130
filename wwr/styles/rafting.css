@@ -87,7 +87,7 @@ div {
     grid-column: 1/8;
     grid-row: 1/8;
     width: 100%;
-    padding: 0 auto;
+    padding: 0;
     position: relative;
 
 }
