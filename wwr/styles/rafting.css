@@ -3,6 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header, footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: var(--accent-color);
+    color:black;
+}
+
+.logo {
+    grid-column: 1/2;
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+nav a{
+    padding: 20px;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    flex-wrap: nowrap;
+}
+
+footer nav a {
+    justify-content: flex-end;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--primary-color);
+}
+
 main {
    background-color: var(--primary-color);
 }
@@ -20,21 +55,45 @@ div {
 }
 
 .hero {
-    position: relative;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    background-color: var(--primary-color);
 }
 
 .hero article{
-    position: absolute;
+    grid-column: 2/7;
+    grid-row: 2/6;
+    background-color: rgb(10, 10, 81);
+    color: aliceblue;
+    border: 5px var(--accent-color);
+}
+
+.hero article p {
+    grid-column: 2/5;
+    font-size: larger;
+}
+
+.hero img {
+    grid-column: 1/8;
+    grid-row: 1/8;
+    width: 100%;
+    padding: 0 auto;
 
 }
 
 .hero h1{
-    position: absolute
+    grid-column: 1/8;
+    grid-row: 1/2;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(10, 10, 81);
+    color: aliceblue;
 }
 
 .hero article img {
-    display: block;
-    float: right;
+    grid-column: 5/7;
+    grid-row: 5/7;
     width: 100%;
     height: auto;
 }
@@ -55,7 +114,6 @@ h1, h2 {
     margin: 5px;
     text-align: center;
     color: var(--text-color);
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .hero article img {
@@ -66,6 +124,16 @@ h1, h2 {
     margin-right: 10px;
 }
 
+.socialmedia {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.socialmedia img {
+    max-width: 50px;
+}
+
 .socialmedia a { 
     text-decoration: none;
+    justify-content: flex-end;
 }
