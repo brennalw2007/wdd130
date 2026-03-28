@@ -127,14 +127,6 @@ h1, h2 {
     color: var(--text-color);
 }
 
-.hero article img {
-    float: right;
-    position: absolute;
-    width: 125px;
-    margin-left: 20px;
-    margin-right: 10px;
-}
-
 .socialmedia {
     display: flex;
     justify-content: flex-end;
