@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shark Quiz!</title>
+        <link rel="stylesheet" href="styles/sharksquiz.css"/>
+        <meta name="author" content="Brenna Waite">
+        <meta name="description" content="a brief quiz about how the user feels about sharks">
+    </head>
+    <body>
+       <form>
+            <q>
+              <label for="question1">What is your favorite shark?</label>
+              <input type="text" id="answer1">
+            </q>
+            <q>
+                <label for="question2">Give me a fun shark fact!</label>
+                <input type="text" id="answer2">
+            </q>
+            <q>
+                <label for="question3">In your opinion, sharks are:</label>
+                <select name="sharks" id="sharkdropdown">
+                    <option value="" selected disabled>...</option>
+                    <option value="scary">lowkey terrifying</option>
+                    <option value="cute">cute and lovable</option>
+                    <option value="cool">pretty cool</option>
+                </select>
+            </q>
+            <button type="submit">Submit Form</button>
+       </form>
+    </body>
+</html>
