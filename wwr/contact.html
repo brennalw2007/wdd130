@@ -38,7 +38,7 @@
         <form>
             <q>
                 <label for="clientname">Your name:</label>
-                <input type="text">
+                <input type="text" name="client" id="clientname">
             </q>
 
             <q>
@@ -50,19 +50,21 @@
                 <label for="messagepurpose">The purpose of your message:</label>
 
                 <label for="general">General Inquiry</label>
-                <input type="radio" name="generalinquiry" id="general" value="general">
+                <input type="radio" name="purpose" id="general" value="general">
 
                 <label for="reservation">Reservation Question</label>
-                <input type="radio" name="reservationquestion" id="reservation" value="reservation">
+                <input type="radio" name="purpose" id="reservation" value="reservation">
 
                 <label for="suggestion">Website Suggestion</label>
-                <input type="radio" name="websitesuggestion" id="suggestion" value="suggestion">
+                <input type="radio" name="purpose" id="suggestion" value="suggestion">
 
             </q>
 
             <q>
                 <label for="message">Your Message:</label>
-                <input type="text" name="clientmessage" id="message">
+                <textarea name="clientmessage" id="message">
+                    <input type="text" name="clientmessage" id="message">
+                </textarea>
             </q>
 
             <q>
@@ -71,9 +73,10 @@
             </q>
 
             <button type="submit">Send Message</button>
-
         </form>
+
         <h2>We Are Here to Serve You</h2>
+
         <section class="employees">
             <img src="images/jerryjimbob.jpg" alt="Our employee Jerry JimBob">
             <p>Jerry JimBob: Safety Instructor</p>
